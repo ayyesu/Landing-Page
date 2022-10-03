@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background: brown;
+}
+
+.card {
+    background : white;
+    width: 270px;
+    margin: 20px;
+    border-radius: 15px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.card-image {
+    background-color: aqua;
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.cardd1 {
+    background-image: url('../images/image1.jpg');
+    
+    
+}
+
+.cardd2 {
+    background-image: url('../images/image2.jpg');
+}
+
+.cardd3 {
+    background-image: url('../images/image3.jpg');
+}
+
+.card a {
+    background-color:black;
+    color: white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+
+.card:hover {
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.background1 {
+    background-image: url('../images/background.jpg');
+}
+
+.background1 p {
+    text-align: center;
+    font-family: 'Inter Tight', sans-serif;
+}
+
+.nav-bar {
+    justify-content: space-between;
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav-bar li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+}
+
+.nav-bar li a:hover {
+    color: black;
+}
+
+.background1 h1 {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+}
+
+.quote {
+    background-image: url('../images/background2.jpg');
+}
+
+.quote h2 {
+    text-align: center;    
+}
+
+.img {
+    text-align: center;
+}
+
+.gif {
+    background-color:cornflowerblue;
+}
+
+.gif h1 {
+    text-align: center;
+}
+
+footer {
+    color: white;
+    background-color:black;
+    text-align:center;
+}
+
